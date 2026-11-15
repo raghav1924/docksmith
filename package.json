@@ -1,0 +1,37 @@
+{
+  "name": "docksmith",
+  "version": "1.0.0",
+  "description": "Developer-first Dockerfile Linter, Container Security Auditor, Layer Cache Optimizer & Visual Multi-Stage Studio.",
+  "main": "dist/index.js",
+  "bin": {
+    "docksmith": "./dist/bin.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "start": "node dist/bin.js studio",
+    "test": "node --test dist/tests/**/*.test.js"
+  },
+  "keywords": [
+    "docker",
+    "dockerfile",
+    "container-security",
+    "linter",
+    "layer-optimization",
+    "devops",
+    "kubernetes",
+    "multi-stage",
+    "developer-tools",
+    "cli"
+  ],
+  "author": "Jatin Sharma <raghavjatin245@gmail.com> (https://jatinsh.netlify.app/)",
+  "homepage": "https://jatinsh.netlify.app/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raghav1924/docksmith.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
