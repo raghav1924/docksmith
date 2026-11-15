@@ -1,0 +1,39 @@
+# Recommended .dockerignore for Node.js / TypeScript microservices
+# DockSmith: Keep build contexts lean and prevent secrets leak
+
+# Git & Version Control
+.git
+.gitignore
+.github
+
+# Local dependencies & caches
+node_modules
+npm-debug.log
+yarn-error.log
+.pnpm-store
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Build outputs & test coverage
+dist
+coverage
+.nyc_output
+
+# IDE and Editor files
+.vscode
+.idea
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Documentation and project briefs
+*.md
+!README.md
+docs
