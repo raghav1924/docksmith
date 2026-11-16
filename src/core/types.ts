@@ -96,4 +96,5 @@ export interface DockerfileAuditReport {
     criticalPath: string[];
     mermaid: string;
   };
+  rawContent?: string;
 }

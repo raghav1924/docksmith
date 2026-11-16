@@ -371,6 +371,7 @@ export class DockerfileAuditor {
         criticalPath: dagResult.criticalPath,
         mermaid: dagResult.mermaid,
       },
+      rawContent: dockerfile.rawContent,
     };
   }
 }
