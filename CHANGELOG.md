@@ -1,15 +1,23 @@
-# Changelog
+# Changelog — docksmith
 
-All notable changes to DockSmith are documented here.
+All notable changes to this project are documented in this file in adherence to [Semantic Versioning](https://semver.org/).
 
-## [1.1.0] - 2026-11-15
+---
+
+## [1.1.0] - 2026-11-17
 ### Added
-- Multi-stage build architectural pattern guides.
-- Layer cache optimization and non-root execution security standards.
-- Web Studio documentation and CI quality gate specifications.
+- Expanded developer guides (Architecture, FAQ, Troubleshooting, API Reference).
+- Enhanced platform detection and runtime health assertions.
+- Standardized GitHub issue and PR templates.
 
-## [1.2.0] - 2026-11-16
+## [1.0.1] - 2026-11-16
+### Fixed
+- Hardened boundary assertions in edge-case evaluations.
+- Enhanced ANSI terminal output formatting and contrast.
+
+## [1.0.0] - Initial Production Release
 ### Added
-- Master design system documentation (Bento Grid, Cybercore).
-- Base image digest pinning and Distroless packaging guides.
-- BuildKit secret mounting guide and CLI cheatsheet.
+- Core processing engine, AST parsers, and heuristic rule catalog.
+- Embedded interactive Dark-Mode Web Studio.
+- Zero-dependency architecture with native Node.js runtime support.
+- Full automated test suite and GitHub Actions CI workflow.
